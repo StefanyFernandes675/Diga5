@@ -7,6 +7,6 @@ As seguintes tecnologias foram utilizadas no projeto:
 - [CSS](https://www.w3schools.com/css/)
 - [JavaScript](https://www.w3schools.com/js/)
 - [MySQL](https://www.mysql.com/)
-- [PHP](https://www.php.net/
+- [PHP](https://www.php.net/)
 ### Feito por: Giovana e Stefany de Oliveira Fernandes.
 ### 🚧 Em construção
