@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    background-color: white;
+    margin: 2rem;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    height: 80vh;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+ }
+
+.back{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0.5rem;
+    width: fit-content;
+    width:10%;
+}
+
+.back:hover{
+    color: #878787;
+}
+
+.container h1{
+    color: #8818FD;
+    font-size: 4rem;
+    padding: 1rem;
+    width:90%;
+}
+
+.container h3{
+    color: rgb(227, 223, 223);
+    font-weight: bold;
+    text-shadow: 0 0 5px rgb(22, 22, 22), 0 0 5px rgb(22, 22, 22);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#vermelho{
+    background-color: #E30B14;
+    border-radius: 2rem;
+}
+
+#vermelho:hover{
+    background-color:#e30b12e8;
+}
+
+#amarelo{
+    background-color: #FFDC04;
+    border-radius: 2rem;
+}
+
+#amarelo:hover{
+    background-color: #ffde04e6;
+}
+
+#verde{
+    background-color: #87ca0ae8;
+    border-radius: 2rem;
+}
+
+#verde:hover{
+    background-color: #87ca0ada;
+}
+
+#azul{
+    background-color: #07A6DB;
+    border-radius: 2rem;
+}
+
+#azul:hover{
+    background-color: #07a6dbe0;
+}
+
+#roxo{
+    background-color: #8818FD;
+    border-radius: 2rem;
+}
+
+#roxo:hover{
+    background-color: #8718fde9;
+}
+
+@media only screen and (min-width: 700px) {
+    body{
+        display:flex;
+        justify-content: center;
+        align-content:center;
+    }
+    .container{
+        width: 575px;
+        height:500px;
+    }
+}
