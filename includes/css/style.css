@@ -10,11 +10,16 @@
 	box-sizing: border-box;
 }
 
-body{
+#page1{
+	margin: 0 calc(100%-20px);
 	font-family: 'Montserrat', sans-serif;
   	height: calc(var(--vh, 1vh) * 100);
 	display:flex;
 	flex-direction: column;
+}
+
+#page2{
+	display: none;
 }
 
 h1{
@@ -39,4 +44,5 @@ button{
 	text-align: center;
 	text-transform:uppercase;
 	text-decoration: none;
+	cursor:pointer;
 }

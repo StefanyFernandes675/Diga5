@@ -1,3 +1,11 @@
+let btn = document.getElementById("comecar");
+
+
+btn.onclick=function(){
+  let div = document.getElementById("page1");
+  div.style.color="red";
+}
+  
 /*let btn = document.getElementById("play");
 
 btn.onclick = function () {
@@ -17,4 +25,3 @@ window.addEventListener('resize', () => {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
 
-console.log(vh)
