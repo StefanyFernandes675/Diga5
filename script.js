@@ -1,9 +1,9 @@
 let btn = document.getElementById("comecar");
 
-
 btn.onclick=function(){
+  console.log("apertado")
   let div = document.getElementById("page1");
-  div.style.color="red";
+  div.style.display="none";
 }
   
 /*let btn = document.getElementById("play");
